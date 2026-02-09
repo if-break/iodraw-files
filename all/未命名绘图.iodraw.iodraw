@@ -14,10 +14,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4buW5QAv8Ne8A0HgkMqV-2" value="bn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="360" width="80" height="30" as="geometry" />
+          <mxGeometry x="-330" y="270" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4buW5QAv8Ne8A0HgkMqV-4" value="act" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="500" width="80" height="30" as="geometry" />
+          <mxGeometry x="-330" y="320" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
