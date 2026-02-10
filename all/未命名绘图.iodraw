@@ -111,6 +111,83 @@
         <mxCell id="WoGo_m7BNKgAGlc_14FD-27" value="conv2d,s=1,k=1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="320" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-30" value="C3k2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.523810250418528;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="390" width="448" height="196.52381025041853" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-31" value="~c: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="26.523810250418528" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-32" value="~cv1: nn.Conv2d" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="53.52381025041853" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-33" value="~cv2: nn.Conv2d" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="80.52381025041853" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-34" value="~m: nn.ModuleList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="107.52381025041853" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="134.52381025041853" width="448" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-36" value="+__init__(c1, c2, n=1, c3k=False, e=0.5, g=1, shortcut=True)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="142.52381025041853" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-37" value="+forward(x)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-30">
+          <mxGeometry y="169.52381025041853" width="448" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-38" value="&lt;&lt;abstract&gt;&gt;&#xa;C2f" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.400001525878906;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="652" width="91" height="57.400001525878906" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-39" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-38">
+          <mxGeometry y="43.400001525878906" width="91" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-40" value="&lt;&lt;Bottleneck module variant&gt;&gt;&#xa;C3k" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.400001525878906;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="652" width="222" height="57.400001525878906" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-41" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-40">
+          <mxGeometry y="43.400001525878906" width="222" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-42" value="&lt;&lt;standard Bottleneck module&gt;&gt;&#xa;Bottleneck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=43.400001525878906;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="578" y="652" width="234" height="57.400001525878906" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-43" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WoGo_m7BNKgAGlc_14FD-42">
+          <mxGeometry y="43.400001525878906" width="234" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-44" value="inherits from" style="curved=1;startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-30" target="WoGo_m7BNKgAGlc_14FD-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="66" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-45" value="uses (conditional)" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.18;exitY=1;entryX=0.26;entryY=0;rounded=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-30" target="WoGo_m7BNKgAGlc_14FD-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-46" value="uses (conditional)" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.82;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-30" target="WoGo_m7BNKgAGlc_14FD-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="621" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-47" value="contains (n times)" style="curved=1;startArrow=none;endArrow=diamondThin;endSize=14;endFill=0;exitX=1;exitY=0.94;entryX=0.67;entryY=0;rounded=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-30" target="WoGo_m7BNKgAGlc_14FD-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="769" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-48" value="contains (n times, conditional)" style="curved=1;startArrow=none;endArrow=diamondThin;endSize=14;endFill=0;exitX=0.5;exitY=1;entryX=0.73;entryY=0;rounded=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-30" target="WoGo_m7BNKgAGlc_14FD-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
