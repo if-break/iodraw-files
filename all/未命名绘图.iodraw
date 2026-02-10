@@ -168,13 +168,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WoGo_m7BNKgAGlc_14FD-61" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-61" value="Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="470" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-63" target="WoGo_m7BNKgAGlc_14FD-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WoGo_m7BNKgAGlc_14FD-63" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-63" value="Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="403" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-65" target="WoGo_m7BNKgAGlc_14FD-67">
