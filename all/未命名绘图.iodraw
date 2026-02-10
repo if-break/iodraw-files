@@ -46,6 +46,11 @@
         <mxCell id="WoGo_m7BNKgAGlc_14FD-7" value="Split" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="320" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47.5" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-8" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="280" width="115" height="30" as="geometry" />
         </mxCell>
