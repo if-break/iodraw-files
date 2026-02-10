@@ -78,6 +78,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-20" value="..n.." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WoGo_m7BNKgAGlc_14FD-19">
+          <mxGeometry x="-0.0201" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-16" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="230" width="115" height="30" as="geometry" />
         </mxCell>
