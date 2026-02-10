@@ -38,7 +38,7 @@
           <mxGeometry x="-160" y="320" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-7" value="Split" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="320" width="80" height="30" as="geometry" />
+          <mxGeometry x="-50" y="320" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-8" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="257" width="115" height="30" as="geometry" />
