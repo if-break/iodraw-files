@@ -59,7 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-16" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="180" width="115" height="30" as="geometry" />
+          <mxGeometry x="-10" y="230" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-17" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="163" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
