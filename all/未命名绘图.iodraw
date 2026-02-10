@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="205" width="551" height="160" as="geometry" />
+          <mxGeometry x="-220" y="150" width="551" height="215" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-5" target="WoGo_m7BNKgAGlc_14FD-7">
           <mxGeometry relative="1" as="geometry" />
@@ -61,11 +61,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WoGo_m7BNKgAGlc_14FD-8" value="C3k，Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-8" value="C3k2 / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="280" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-9" value="C3K2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="171" y="120" width="50" height="30" as="geometry" />
+          <mxGeometry x="270" y="150" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WoGo_m7BNKgAGlc_14FD-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
