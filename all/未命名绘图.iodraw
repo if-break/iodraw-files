@@ -94,7 +94,7 @@
         <mxCell id="WoGo_m7BNKgAGlc_14FD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-17" target="WoGo_m7BNKgAGlc_14FD-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WoGo_m7BNKgAGlc_14FD-17" value="C3k2 / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-17" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="163" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-25" target="WoGo_m7BNKgAGlc_14FD-27">
@@ -110,6 +110,86 @@
         </mxCell>
         <mxCell id="WoGo_m7BNKgAGlc_14FD-27" value="conv2d&lt;div&gt;s=1,k=1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="160" width="551" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-51" target="WoGo_m7BNKgAGlc_14FD-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-51" value="conv2d&lt;div&gt;s=1,k=1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-54" target="WoGo_m7BNKgAGlc_14FD-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-54" target="WoGo_m7BNKgAGlc_14FD-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-54" value="Split" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-56" target="WoGo_m7BNKgAGlc_14FD-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="305" />
+              <mxPoint x="120" y="280" />
+              <mxPoint x="-20" y="280" />
+              <mxPoint x="-20" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-56" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="290" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-57" value="C3K2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WoGo_m7BNKgAGlc_14FD-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="345" as="sourcePoint" />
+            <mxPoint x="5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-61" target="WoGo_m7BNKgAGlc_14FD-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="255" />
+              <mxPoint x="130" y="220" />
+              <mxPoint x="-20" y="220" />
+              <mxPoint x="-20" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-60" value="..n.." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WoGo_m7BNKgAGlc_14FD-59">
+          <mxGeometry x="-0.0201" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-61" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-63" target="WoGo_m7BNKgAGlc_14FD-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-63" value="C3k / Bottleneck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="173" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-65" target="WoGo_m7BNKgAGlc_14FD-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-65" value="cat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGo_m7BNKgAGlc_14FD-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoGo_m7BNKgAGlc_14FD-67" value="conv2d&lt;div&gt;s=1,k=1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
